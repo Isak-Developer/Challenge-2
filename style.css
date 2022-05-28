@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #0a0c1b;
+    position: relative;
+}
+.content{
+    background-color: #1c1938;
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3) ,
+                 5px 5px 5px rgba(0, 0, 0, 0.2),
+                15px 15px 15px rgba(0, 0, 0, 0.2);
+    
+}
+.content h1{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+span{
+    color: #9c54cf;
+}
+.content p{
+    padding: 10px;
+    color: #fff;
+}
+
+.left{
+    flex: 1;
+}
+.numbres{
+    display: flex;
+}
+.one{
+    flex: 1;
+    font-size: 12px;
+    padding: 10px;
+}
+.one p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.one span{
+    font-size: 10px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.two{
+    flex: 1;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.two p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.two span{
+    font-size: 10px;
+    color:#fff;
+    font-weight: 100;
+}
+.three{
+    flex: 1;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.three p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.three span{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.right{
+    flex: 1;
+    background: url(./images/image-header-desktop.jpg) ,center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+}
